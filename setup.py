@@ -25,11 +25,10 @@ setup (
  install_requires = install_requires,
  python_requires='>=2.7', # any python greater than 2.7
  entry_points='''
-        [console_scripts]
-        cli-pal=cli-pal.__main__:main
+        [console_scripts]:
+        cli-pal=cli_pal.__main__:main
     ''',
  author="Sanya",
- keyword="search,google,cli,tool,mail",
  long_description=README,
  long_description_content_type="text/markdown",
  license='MIT',
