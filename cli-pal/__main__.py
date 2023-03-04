@@ -2,7 +2,7 @@ import sys,click
 from  gc_scraper import get_search_data
 from gmail import gmail_login
 @click.group()
-@click.version_option("1.0.0")
+@click.version_option("1.0.1")
 def main():
     """welcome to CLI-pal"""
     print("hi")
