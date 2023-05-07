@@ -23,5 +23,5 @@ $ cli-pal google-search cats
 ## Lookup
 `gmail <id> <pass>`
 ```bash
-$ cver gmail example@abc.com mypassw
+$ cli-pal gmail example@abc.com mypassw
 ```
